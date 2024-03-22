@@ -1,5 +1,6 @@
 package CPRO2221.A3SolidPrinciples.Solved.SRP;
 
+// SOLUTION: this class is only responsible for representing product details
 // represents a product in an ecommerce system
 public class Product {
     // Product properties

@@ -29,9 +29,11 @@ public abstract class Product {
         return price;
     }
 
+    // SOLUTION: all products need to be delivered
     // method declaration to be implemented by Product subclasses
     public abstract void deliver();
 
+    // SOLUTION: all products have product details
     // method to print product details
     public void printDetails() {
         System.out.println("\nProduct: " + name + "\nRating: " + rating + "\nPrice: " + price);

@@ -8,6 +8,7 @@ public class Order {
     // Order properties
     private List<Product> products;
     private double totalPrice;
+    // SOLUTION: payment property can handle different payment methods
     private Payment payment;
 
     // no args constructor
@@ -46,6 +47,7 @@ public class Order {
         this.totalPrice += product.getPrice();
     }
 
+    // SOLUTION: dynamically sets payment method and invoke pay method on provided Payment object
     // process the order by completing the payment
     public void processOrder(Payment p) {
         this.payment = p;

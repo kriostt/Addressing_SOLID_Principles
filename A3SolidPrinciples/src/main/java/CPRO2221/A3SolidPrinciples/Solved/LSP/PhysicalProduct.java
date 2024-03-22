@@ -7,6 +7,7 @@ public class PhysicalProduct extends Product {
         super(name, rating, price);
     }
 
+    // SOLUTION: a physical product can implement the deliver method
     // overrides the deliver() method in Product class
     @Override
     public void deliver() {

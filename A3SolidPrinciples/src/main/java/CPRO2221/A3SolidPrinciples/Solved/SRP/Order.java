@@ -3,6 +3,7 @@ package CPRO2221.A3SolidPrinciples.Solved.SRP;
 import java.util.ArrayList;
 import java.util.List;
 
+// SOLUTION: this class is only responsible for managing orders and order-related operations
 // represents an order in an ecommerce system
 public class Order {
     // Order properties
